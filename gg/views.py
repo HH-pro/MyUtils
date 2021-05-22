@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 
 def hh(request):
-    return render(request,'hh.html')
+    return render(request, '../hh.html')
 
 
 def analyze(request):
